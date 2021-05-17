@@ -1,0 +1,19 @@
+body {
+    margin: 30px;
+}
+
+table {
+    width: 99%;
+    margin: 0 auto;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px black;
+}
+
+td {
+    height: 100px;
+}

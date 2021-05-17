@@ -1,0 +1,150 @@
+.cart_page1 {
+    width: 100%;
+}
+
+.cart_status_box {
+    display: flex;
+    width: 100%;
+    height:200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("./images/background/cart_page4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 1%;
+}
+
+.status_a {
+    flex: 1;
+    padding-left:5%;
+}
+
+.status_b {
+    flex: 1;
+}
+
+.status_c {
+    flex: 1;
+}
+
+.status_d {
+    flex: 1;
+    padding-right: 5%;
+}
+
+.item_status {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-collapse: separate;
+    border-spacing: 8px 8px;
+    border: solid 1px black;
+}
+
+
+th, td {
+    border: solid 1px black;
+    border-collapse: separate;
+}
+
+th {
+    background-color: #003333;
+    color: white;
+}
+
+.item_status td {
+    height: 200px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    flex: 1;
+ 
+}
+
+.item_name_box {
+    display: flex;
+}
+
+.item_name {
+    flex: 1;
+    vertical-align:  middle;
+}
+
+.item_image {
+    height: 150px;
+    width: 100px;
+    margin-top: 21px;
+}
+
+p {
+    text-align: center;
+    margin-top: 88px
+}
+
+input {
+    border: solid 1px black;
+}
+
+.item_size {
+    margin-bottom: 88px;
+}
+
+.stock {
+    margin-bottom: 88px;
+
+}
+
+.stock_value {
+    text-align: center;
+}
+
+.total_table {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 50px;
+    border-collapse: separate;
+    border-spacing: 8px 8px;
+    text-align: center;
+}
+
+.total_a {
+    width: 70%;
+    color: white;
+    background-color: #003333;
+}
+
+.total_b {
+    width: 30%;
+    
+}
+
+.next_box {
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.next_box a {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background: #00385f;
+    color: white;
+    text-decoration: none;
+    padding-top: 13px;
+}
+
+.complete_message {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main_flex {
+    flex: 8;
+}

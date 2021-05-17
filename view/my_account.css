@@ -1,0 +1,56 @@
+main {
+    height:500px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+ }
+ 
+ input {
+    border: 1px solid gray;
+    margin: 5px 0;
+    
+}
+
+.text_box {
+    width: 400px;
+    height: 30px;
+}
+
+.submit {
+    margin-top: 10px;
+    float: right;
+}
+
+.change_account {
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    width: 200px;
+}
+
+main p{
+    border-bottom: solid 1px black;
+}
+
+main div {
+    color: #888888;
+}
+
+main a {
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    height: 30px;
+    text-align:center;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.change_account_botan {
+    float: right;
+}
+
+.main_flex {
+    flex: 8;
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 30px;
+}
+
+.oya {
+    margin: 10px;
+    display: flex;
+    width: 50%;
+}
+
+form div {
+    margin: 5px;
+}
+.features {
+    float: right;
+}
+
+.oya_lefts {
+    width: 30%;
+}
+
+.botton {
+    margin-left: 500px;
+    width: 200px;
+}
+
+
+table {
+    width: 99%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th, td {
+    border: solid 1px black;
+}
+
+td {
+    height: 200px;
+}
+
+input {
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+th:nth-child(7) {
+    width: 200px;
+}
+
+.stock {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+.stock_a {
+    width: 80%;
+}
+
+.error_msg {
+    color: red;
+}
+
+.success_msg {
+    color: green;
+}
+
+.status0 {
+    background-color: #cccccc;
+}

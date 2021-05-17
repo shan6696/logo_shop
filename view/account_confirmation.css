@@ -1,0 +1,92 @@
+.cart_page1 {
+    width: 100%;
+}
+
+.cart_status_box {
+    display: flex;
+    width: 100%;
+    height:200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("./images/background/cart_page2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 1%;
+}
+
+.status_a {
+    flex: 1;
+    padding-left:5%;
+}
+
+.status_b {
+    flex: 1;
+}
+
+.status_c {
+    flex: 1;
+}
+
+.status_d {
+    flex: 1;
+    padding-right: 5%;
+}
+
+main {
+    height:500px;
+    width: 400px;
+    margin: 0 auto;
+ }
+ 
+ input {
+    border: 1px solid gray;
+    margin: 5px 0;
+    
+}
+
+.text_box {
+    width: 400px;
+    height: 30px;
+}
+
+.submit {
+    margin-top: 10px;
+    float: right;
+}
+
+.change_account {
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    width: 200px;
+}
+
+main p{
+    border-bottom: solid 1px black;
+}
+
+main div {
+    color: #888888;
+}
+
+main a {
+    background-color: #00385f;
+    padding: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    height: 50px;
+    text-align:center;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 100px;
+    width: 200px;
+    padding: 13px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.main_flex {
+    flex: 8;
+}

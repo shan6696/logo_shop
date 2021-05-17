@@ -1,0 +1,97 @@
+main {
+    margin: 2px;
+    width: 100%;
+    flex: 8;
+}
+
+main .sale_a {
+    text-decoration: none;
+    color: #ffffff;
+    flex: 1;
+    border:solid 1px #ffffff;
+    margin: 10px;
+    padding: 2px 10px;
+}
+
+main .main_sale {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url('images/background/sale_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+main .sale {
+    font-size: 60px;
+}
+
+main .sale_sex {
+    display: flex;
+}
+
+main .sale_men {
+    width: 100px;
+}
+main .sale_women {
+    width: 100px;
+}
+
+.main_new {
+    height: 400px;
+    background-image: url('images/background/new_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+main .new_top {
+    height:200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+main .new_bottom {
+    display: flex;
+}
+
+main .new_bottom_left {
+    flex: 1;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .new_bottom_right {
+    flex: 1;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .new_men {
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 35px;
+}
+
+main .new_women {
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 35px;
+}
+

@@ -1,0 +1,24 @@
+main {
+    height:500px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+ }
+
+main a {
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 300px;
+    height: 40px;
+    text-align:center;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+
+.main_flex {
+    flex: 8;
+}

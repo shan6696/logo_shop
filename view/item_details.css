@@ -1,0 +1,128 @@
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .oya {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin: 15px 0;
+}
+.details {
+    /*border: solid 1px black;*/
+    width: 40%;
+    flex: 1;
+}
+
+.item_image {
+    /*border: solid 1px black;*/
+    /*width: 400px;*/
+    flex: 1;
+}
+
+.img {
+    width: 400px;
+    height:550px;
+    float: right;
+    border: solid 1px black;
+    margin-top:21px;
+    margin-right: 100px;
+}
+.item_name_price_box {
+    /*border: solid 1px black;*/
+    width: 100%;
+    height: 50%;
+}
+
+.item_status_box {
+    /*border: solid 1px black;*/
+    width: 100%;
+    height: 50%;
+    text-align: right;
+}
+
+.features {
+    border: solid 1px black;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.item_name_price {
+    text-align: center;
+}
+ .item_name {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top:60px;
+}
+
+input, select {
+    border: solid 1px black;
+    width: 100px;
+    text-align: center;
+}
+
+select {
+    text-indent: 50%;
+}
+.item_status {
+    width: 85%;
+    margin-top: 40px;
+}
+
+.cart_botan {
+    width: 340px;
+    margin-top: 5px;
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    border: none;
+}
+
+.in_stock, .not_in_stock {
+    margin-right: 250px;
+}
+
+.in_stock {
+    color: #00CC00;
+}
+
+.not_in_stock {
+    color: red;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+.login_botan {
+    display: inline-block;
+    width: 340px;
+    margin-top: 5px;
+    background-color: #003333;
+    padding: 3px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.item_price_genka {
+    text-decoration: line-through;
+    color: black;
+}
+
+span {
+    color: red;
+}
+
+.comment {
+    margin-left: 30px;
+}
+
+.error_message {
+    height: 1em;
+    color: red;
+}

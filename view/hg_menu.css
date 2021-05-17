@@ -1,0 +1,72 @@
+.main_oya {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    display: none;
+    flex: 2;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav li {
+    border-bottom: solid 1px black;
+    height: 60px;
+    padding-left: 19px;
+}
+
+.nav_main_new {
+    padding-top: 19px;
+    color: black;
+}
+
+.nav_main_sale {
+    padding-top: 19px;
+    color: black;
+}
+
+.nav_main_men {
+    padding-top: 19px;
+    color: black;
+}
+
+.nav_main_women {
+    padding-top: 19px;
+    color: black;
+}
+
+.nav_sub_new {
+    height: 30px;
+    margin: 5px;
+}
+
+
+
+.nav_sub_sale {
+    height: 30px;
+    margin: 5px;
+}
+
+.nav_sub_men {
+    height: 30px;
+    margin: 5px;
+}
+
+.nav_sub_women {
+    height: 30px;
+    margin: 5px;
+}
+
+a {
+        text-decoration: none;
+        color: gray;
+}
+
+nav li:hover {
+    color: #303030;
+}
